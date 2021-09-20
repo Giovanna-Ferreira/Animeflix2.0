@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animeflix</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+         <strong>Animeflix<strong>
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+      </div>   
+          <p>Clique em um anime que queira assistir<br>Ou<br>Digite a url da imagem e do link para ter os seus animes favoritos adicionados!</p><br>
+          <div class="campo">
+            <input type="string" id="animeLink" name="animeLink" placeholder="insira a url do anime" required><br>
+           <input type="string" id="animeImg" name="animeImg" placeholder="insira a url da imagem" required><br>
+         
+           <button class="botao" id="add" type="submit" onclick="adicAnim()">Adicionar</button><br>
+          </div>
+          <div class="animes">
+        <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>   
+        <a href="https://betteranime.net/anime/dublado/naruto-dublado" target="_blank">
+        <img src="https://betteranime.net/storage/cover/185x250x746cd6f190bdff4bcd01bfea06d500971ac4921f32b31a47274c345d20df4afb.jpg.pagespeed.ic.51uw9mhfb-.webp">
+        </a>
+        <a href="https://betteranime.net/anime/legendado/naruto-shippuden" target="_blank">
+        <img src="https://betteranime.net/storage/cover/185x250xb7a13c7f56a91def7c1407fdac30fe835a9b810c400f0059ecdcb2b74c639a0b.jpg.pagespeed.ic.rXGr05g9JG.webp">
+        </a>
+        <a href="https://betteranime.net/anime/dublado/boku-no-hero-academia-dublado" target="_blank">
+        <img src="https://betteranime.net/storage/cover/185x250xYi3WLiJoD8vGQ3v1Ls2t6rX58jkZUZPIkiicJtku.jpeg.pagespeed.ic.dbrQtDcv5k.webp">
+        </a>
+        <a href="https://betteranime.net/anime/dublado/boku-no-hero-academia-2nd-season-dublado" target="_blank">
+        <img src="https://betteranime.net/storage/cover/185x250xywJZrScYwbZKX45Ksf99Qj3JZ3nt7AgbB4SsLKi3.jpeg.pagespeed.ic.BctHhFt5dm.webp">
+        </a>
+        <a href="https://betteranime.net/anime/dublado/boku-no-hero-academia-3-dublado" target="_blank">
+        <img src="https://betteranime.net/storage/cover/185x250xHdXrQa7GZsAOWL6XTgSMezcOquHTK8B7vOt19iFz.jpeg.pagespeed.ic.yX-sVSNX2J.webp">
+        </a>
+        <a href="https://betteranime.net/anime/dublado/boku-no-hero-academia-4-dublado" target="_blank">
+        <img src=https://betteranime.net/storage/cover/185x250xCvx0enjKzbmUYtBUp8FDs7M4CNyMLaZvFYQ8SjqB.jpeg.pagespeed.ic.2hvi4sXfro.webp>
+        </a>
+        <a href="https://betteranime.net/anime/dublado/boku-no-hero-academia-5-dublado" target="_blank">
+        <img src="https://betteranime.net/storage/thumbnail/185x250xrVJi2RjIiPOfpV5LehIY4RvJa3PMQ8Rj50YHIiQf.jpg.pagespeed.ic.IY0HupPh_F.webp">
+        </a>
+        <a href="https://betteranime.net/anime/legendado/one-piece" target="_blank">
+        <img src="https://betteranime.net/storage/thumbnail/185x250xT1zOwOtD7Dz5pqsn0eDjx1QUdKZ2Z7BiUYmQBsFr.jpg.pagespeed.ic.WoKGtqgTdq.webp">
+          </a>
+          </div>
+          <div id="listAnimes" name="listAnimes"></div>
+</body>
+</html>
