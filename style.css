@@ -2,7 +2,7 @@ body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
   background-image: url("https://wallpaperaccess.com/full/2923516.jpg");
-  background-color: #0B1936;
+  background-color: #0b1936;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -14,8 +14,8 @@ body {
 }
 
 .page-title {
-  background:#000000;
-  color: #4F81FF;
+  background: #000000;
+  color: #4f81ff;
   margin: 0 0 5px;
 }
 
@@ -36,32 +36,32 @@ body {
 }
 
 body img {
-  margin: 2 5px;
+  margin: 2px;
 }
 body #listanimes {
   margin: 0 10px;
 }
 
 img {
-  max-height: 250px;
+  max-height: 120px;
   border-radius: 10px;
 }
 p {
   color: #ffffff;
-  text-align:center;
+  text-align: center;
   font-size: 30px;
 }
 .botao {
-     font-size: 1.2em;
-    background: #42439d;
-    border: 0;
-    margin-bottom: 1em;
-    color: #ffffff;
-    padding: 0.2em 0.6em;
-    box-shadow: rgba(0,0,0,0.2);
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  font-size: 1.2em;
+  background: #42439d;
+  border: 0;
+  margin-bottom: 1em;
+  color: #ffffff;
+  padding: 0.2em 0.6em;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-  .campo input {
+.campo input {
   display: block;
   margin: 0 auto;
   padding: 8px 15px;
@@ -69,18 +69,22 @@ p {
 input {
   position: center;
 }
-.campo input:focus, .campo textarea:focus {
-    background: #8080ff;
+.campo input:focus,
+.campo textarea:focus {
+  background: #8080ff;
 }
-.botao:hover{
-    background: #efbbff;
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: none;
+.botao:hover {
+  background: #efbbff;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
 }
-.botao, select{
+.botao,
+select {
   cursor: pointer;
 }
 
-input, button{
+input,
+button {
   border-radius: 5px;
 }
+
